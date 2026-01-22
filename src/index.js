@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://school-book-inventory-frontend-g1fh.vercel.app/"
+  origin: "https://school-book-inventory-frontend-g1fh.vercel.app"
 }));
 
 app.use("/book-set", bookSetRoutes);
